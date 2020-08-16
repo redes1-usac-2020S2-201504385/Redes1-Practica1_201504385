@@ -7,3 +7,5 @@ Segundo Semestre 2020
 
 
 [Docs](./doc/docs.md)
+
+[Downloads](./doc/downloads.md)
