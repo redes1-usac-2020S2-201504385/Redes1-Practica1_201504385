@@ -142,6 +142,18 @@ R1(config)# exit
 R1# show ip interface brief
 ```
 
+#### Outputs
+
+Summary
+
+![](./img/router/show-ip-interface-brief.PNG)
+
+Details
+
+| FastEthernet0/0                                       | FastEthernet0/1                                       |
+| ----------------------------------------------------- | ----------------------------------------------------- |
+| ![](./img/router/show-ip-interface-fastEthernet0.PNG) | ![](./img/router/show-ip-interface-fastEthernet1.PNG) |
+
 
 
 ### VPCS
