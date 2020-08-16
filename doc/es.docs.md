@@ -1,8 +1,8 @@
 # Docs
 
-Se le pide que configure y administre los dispositivos de una infraestructura de red para una empresa que está comenzando a crecer y desea implementar una red, un arquitecto de red les proporciona el **[diseño de la topología](#Topología) ** que serán utilizados por dicha empresa, pero deberán configurarlo para brindar comunicación de acuerdo a las necesidades indicadas.
+Se le pide que configure y administre los dispositivos de una infraestructura de red para una empresa que está comenzando a crecer y desea implementar una red, un arquitecto de red les proporciona el **[diseño de la topología](#Topología)** que serán utilizados por dicha empresa, pero deberán configurarlo para brindar comunicación de acuerdo a las necesidades indicadas.
 
-Debe configurar y administrar el equipo de una infraestructura de red para una empresa que tiene **[4 hosts](#Hosts) ** que están conectados a 2 switches diferentes y estos están conectados entre sí a través de un **[router](#Router) ** que será el principal centro de comunicaciones.
+Debe configurar y administrar el equipo de una infraestructura de red para una empresa que tiene **[4 hosts](#Hosts)** que están conectados a 2 switches diferentes y estos están conectados entre sí a través de un **[router](#Router)** que será el principal centro de comunicaciones.
 
 - [Topología](#Topología)
 - [Descripción](#Descripción)
