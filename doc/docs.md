@@ -5,7 +5,7 @@ You are asked to configure and manage the devices of a network infrastructure fo
 You must configure and manage the equipment of a network infrastructure for a company which has **[4 hosts](#Hosts)** which are connected to 2 different switches and these are connected to each other through a **[router](#Router)** which will be the main communication center.
 
 - [Topology](#Topology)
-- [Description](#Description)
+- [Conf Description](#Conf Description)
 - [Vocabulary](#Vocabulary)
 
 
@@ -14,7 +14,7 @@ You must configure and manage the equipment of a network infrastructure for a co
 
 <img src="./img/topology.PNG" alt="Topology" style="zoom: 100%;" />
 
-## Description
+## Conf Description
 
 ### Router
 
