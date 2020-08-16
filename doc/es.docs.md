@@ -74,6 +74,74 @@ Ya existen dentro de la herramienta
 
 ##### Comandos
 
+```sh
+R1# configure terminal
+```
+
+Fast Ethernet 0/0
+
+```sh
+R1(config)# interface fastEthernet 0/0
+```
+
+```sh
+R1(config-if)# full-duplex
+```
+
+```sh
+R1(config-if)# speed 100
+```
+
+```sh
+R1(config-if)# ip address 192.168.18.254 255.255.255.0
+```
+
+```sh
+R1(config-if)# no shutdown
+```
+
+```sh
+R1(config-if)# exit
+```
+
+Fast Ethernet 0/1
+
+```sh
+R1(config)# interface fastEthernet 0/1
+```
+
+```sh
+R1(config-if)# full-duplex
+```
+
+```sh
+R1(config-if)# speed 100
+```
+
+```sh
+R1(config-if)# ip address 192.168.15.254 255.255.255.0
+```
+
+```sh
+R1(config-if)# no shutdown
+```
+
+```sh
+R1(config-if)# exit
+```
+
+Verificar
+
+```sh
+R1(config)# exit
+```
+
+```sh
+R1# show ip interface brief
+```
+
+
+
 ### VPCS
 
 ##### Comandos
