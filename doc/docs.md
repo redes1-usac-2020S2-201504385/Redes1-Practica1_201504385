@@ -6,6 +6,11 @@ You must configure and manage the equipment of a network infrastructure for a co
 
 - [Topology](#Topology)
 - [Description](#Description)
+- [Routers](#Routers)
+- [Switches](#Switches)
+- [VPCS](#VPCS)
+- [VMS](#VMS)
+- [Configuration](#Configuration)
 - [Vocabulary](#Vocabulary)
 
 
@@ -15,6 +20,8 @@ You must configure and manage the equipment of a network infrastructure for a co
 <img src="./img/topology.PNG" alt="Topology" style="zoom: 100%;" />
 
 ## Description
+
+For the configuration of the requested topology, the following tables are provided, with the IP addresses and router configurations necessary for its correct implementation.
 
 ### Router
 
@@ -37,6 +44,28 @@ You must configure and manage the equipment of a network infrastructure for a co
 | VPCS      | PC4    | Switch2      | 192.168.1Y.30 |
 
 **where x = 8 and y = 5*
+
+
+
+## Devices
+
+### Routers
+
+
+
+### Switches
+
+
+
+### VPCS
+
+
+
+### VMS
+
+
+
+## Configuration
 
 
 
