@@ -52,21 +52,33 @@ Para la configuración de la topología solicitada, se proporcionan las siguient
 
 ### Routers
 
+[Descargar Imagens de Cisco](https://docs.gns3.com/docs/emulators/cisco-ios-images-for-dynamips)
 
+No requiere configuraciones adicionales
 
 ### Switches
 
-
+Ya existen dentro de la herramienta
 
 ### VPCS
 
-
+Ya existen dentro de la herramienta
 
 ### VMS
 
-
+[Descargar y Configurar TinyLinux](https://docs.gns3.com/docs/emulators/adding-vmware-vms-to-gns3-topologies)
 
 ## Configuración
+
+### Router
+
+##### Comandos
+
+### VPCS
+
+##### Comandos
+
+### VMS
 
 
 

@@ -52,21 +52,35 @@ For the configuration of the requested topology, the following tables are provid
 
 ### Routers
 
+[Download Cisco Images](https://docs.gns3.com/docs/emulators/cisco-ios-images-for-dynamips)
 
+No additional configuration required
 
 ### Switches
 
-
+They already exist within the tool
 
 ### VPCS
 
-
+They already exist within the tool
 
 ### VMS
+
+[Download and Configure TinyLinux](https://docs.gns3.com/docs/emulators/adding-vmware-vms-to-gns3-topologies)
 
 
 
 ## Configuration
+
+### Router
+
+##### Commands
+
+### VPCS
+
+##### Commands
+
+### VMS
 
 
 
