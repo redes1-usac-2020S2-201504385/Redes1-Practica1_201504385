@@ -6,6 +6,6 @@ Segundo Semestre 2020
 
 
 
-[Docs](./doc/docs.md)
+[Docs](./doc/docs.md) / [esDoc](./doc/es.docs.md)
 
 [Downloads](./doc/downloads.md)
