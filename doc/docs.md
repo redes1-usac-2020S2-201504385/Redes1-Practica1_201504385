@@ -1,12 +1,18 @@
 # Docs
 
-### Topology
+You are asked to configure and manage the devices of a network infrastructure for a company which is starting to grow and want to implement a network, a network architect provides them with the **[design of the topology](#Topology)** that will be used by said company, but they must configure it to provide communication according to the needs indicated.
+
+You must configure and manage the equipment of a network infrastructure for a company which has **[4 hosts](#Hosts)** which are connected to 2 different switches and these are connected to each other through a **[router](#Router)** which will be the main communication center.
+
+
+
+## Topology
 
 <img src="./img/topology.PNG" alt="Topology" style="zoom: 100%;" />
 
-### Description
+## Description
 
-#### Router
+### Router
 
 | Interface | Network Address | IP Address     |
 | --------- | --------------- | -------------- |
@@ -17,7 +23,7 @@
 
 
 
-#### Hosts
+### Hosts
 
 | Type      | Name   | Connected To | IP Address    |
 | --------- | ------ | ------------ | ------------- |
