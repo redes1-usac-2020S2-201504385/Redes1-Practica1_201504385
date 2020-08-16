@@ -12,7 +12,7 @@ You must configure and manage the equipment of a network infrastructure for a co
 - [VMS](#VMS)
 - [Configuration](#Configuration)
 - [Vocabulary](#Vocabulary)
-- [Downloads](./downloads)
+- [Downloads](./downloads.md)
 
 
 

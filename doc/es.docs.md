@@ -12,7 +12,7 @@ Debe configurar y administrar el equipo de una infraestructura de red para una e
 - [VMS](#VMS)
 - [Configuración](#Configuración)
 - [Vocabulario](#Vocabulario)
-- [Downloads](./downloads)
+- [Downloads](./downloads.md)
 
 
 
