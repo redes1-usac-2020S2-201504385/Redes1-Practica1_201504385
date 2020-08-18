@@ -74,37 +74,55 @@ Ya existen dentro de la herramienta
 
 ##### Comandos
 
+Entramos a configurar el dispositivo con el siguiente comando
+
 ```sh
 R1# configure terminal
 ```
 
 Fast Ethernet 0/0
 
+El siguiente comando es para indicar que vamos a configurar la interfaz fastEthernet 0/0
+
 ```sh
 R1(config)# interface fastEthernet 0/0
 ```
+
+Definimos el tipo de transmisión en esta interfaz
 
 ```sh
 R1(config-if)# full-duplex
 ```
 
+Indicamos la velocidad a la que va a trabajar esta interfaz
+
 ```sh
 R1(config-if)# speed 100
 ```
+
+Asignamos dirección ip y máscara
 
 ```sh
 R1(config-if)# ip address 192.168.18.254 255.255.255.0
 ```
 
+Activamos la interfaz
+
 ```sh
 R1(config-if)# no shutdown
 ```
+
+Salimos de la configuración de esta interfaz
 
 ```sh
 R1(config-if)# exit
 ```
 
 Fast Ethernet 0/1
+
+El siguiente comando es para indicar que vamos a configurar la interfaz fastEthernet 0/1
+
+(repetimos los pasos anteriores pero con distinta ip)
 
 ```sh
 R1(config)# interface fastEthernet 0/1
@@ -132,9 +150,13 @@ R1(config-if)# exit
 
 Verificar
 
+Primero salimos de la configuración del dispositivo
+
 ```sh
 R1(config)# exit
 ```
+
+Verificamos el estado de las interfaces activas
 
 ```sh
 R1# show ip interface brief
@@ -151,6 +173,12 @@ Detalles
 | FastEthernet0/0                                       | FastEthernet0/1                                       |
 | ----------------------------------------------------- | ----------------------------------------------------- |
 | ![](./img/router/show-ip-interface-fastEthernet0.PNG) | ![](./img/router/show-ip-interface-fastEthernet1.PNG) |
+
+Finalmente si deseamos que las configuraciones perduren luego de apagar el equipo ejecutamos el siguiente comando.
+
+```sh
+R1# write
+```
 
 
 
