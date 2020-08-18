@@ -184,9 +184,9 @@ R1# write
 
 ### VPCS
 
-### VPCS
-
 ##### Comandos
+
+Asignamos IPS a las vpcs
 
 PC2
 
@@ -206,11 +206,45 @@ PC4
 PC4$ ip 192.168.15.30 192.168.15.254 24
 ```
 
+#### Outputs
+
+verificamos la comunicacion entre los dispositivos con el comando ping
+
+```sh
+PCX$ ping 192.168.1X.15
+PCX$ ping 192.168.1Y.15
+PCX$ ping 192.168.1X.30
+PCX$ ping 192.168.1Y.30
+```
+
+| PC2                      | PC3                      | PC4                      |
+| ------------------------ | ------------------------ | ------------------------ |
+| ![](./img/tests/pc2.PNG) | ![](./img/tests/pc3.PNG) | ![](./img/tests/pc4.PNG) |
+
 
 
 ### VMS
 
+Para agregar una Maquina virtual a GNS3 seguimos los siguientes pasos (si aun no lo hemos hecho)
 
+[Configure TinyLinux](https://docs.gns3.com/docs/emulators/adding-vmware-vms-to-gns3-topologies)
+
+Posterior a ello asignamos manualmente la ip dentro de TinyLinux
+
+#### Outputs
+
+verificamos la comunicacion entre los dispositivos con el comando ping
+
+```sh
+PCX$ ping 192.168.1X.15
+PCX$ ping 192.168.1Y.15
+PCX$ ping 192.168.1X.30
+PCX$ ping 192.168.1Y.30
+```
+
+| PC1                            |
+| ------------------------------ |
+| ![](./img/tests/tinylinux.PNG) |
 
 
 
